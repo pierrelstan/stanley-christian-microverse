@@ -25,6 +25,7 @@
 
           <label>Which option best describes your current role?</label>
       <select name="select"  id="dropdown">
+        <option value="none" disabled selected>Select current role</option>
         <option value="student">Student</option>
         <option value="full time job">Full Time Job</option>
         <option value="full time learner">Full Time Learner</option>
@@ -45,7 +46,16 @@
           <input type="radio" id="html" name="radio" value="not sure">
           <label for="age1">Not sure</label><br>
         </div>
-
+        <div>
+          <label for="dropdown2">What is your favorite feature of freeCodeCamp?</label>
+          <select name="select"  id="dropdown2">
+            <option value="none" disabled selected>Select an option</option>
+            <option value="challenges">Challenges</option>
+            <option value="projects">Projects</option>
+            <option value="community">Community</option>
+            <option value="open source">Open Source</option>
+          </select>
+        </div>
 
 </form>
       </div>
